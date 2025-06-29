@@ -1,1 +1,1 @@
-# EC Assessoria Acadêmica
+EC Assessoria Acadêmica
