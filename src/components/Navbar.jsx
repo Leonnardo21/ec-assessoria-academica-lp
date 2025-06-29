@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../assets/favicon.svg";
 
 export default function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,6 @@ export default function Navbar(){
         {name: "Sobre", href: "#about"},
         {name: "Serviços", href: "#services"},
         {name: "Depoimentos", href: "#depoiments"},
-        {name: "Contato", href: "#contact"}
     ]
 
     return(
@@ -18,11 +18,11 @@ export default function Navbar(){
             <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
-                    <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-cyan-300 rounded-lg flex items-center justify-center shadow-lg">
-                        <span className="text-white font-bold text-lg">EC</span>
+                    <div className="w-10 h-10 flex items-center justify-center shadow-lg">
+                        <img src={Logo} alt="" />
                     </div>
-                    <div className="text-xl font-bold bg-gradient-to-r from-blue-300 to-cyan-200 bg-clip-text text-transparent">
-                        EC Assessoria Acadêmica
+                    <div className="text-xl font-bold bg-gradient-to-r from-yellow-300 to-yellow-200 to-yellow-600 bg-clip-text text-transparent">
+                        Assessoria Acadêmica
                     </div>
                 </div>
 

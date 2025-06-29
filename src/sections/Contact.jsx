@@ -156,10 +156,10 @@ export default function Contact() {
                     <h4 className="font-bold text-gray-800 mb-2">E-mail</h4>
                     <p className="text-gray-600 mb-3">Para orçamentos detalhados e documentos</p>
                     <a 
-                      href="mailto:contato@ec.com" 
+                      href="mailto:ecacessoriaacademica@gmail.com" 
                       className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium"
                     >
-                      contato@ec.com
+                      ecacessoriaacademica@gmail.com
                     </a>
                   </div>
                 </div>
@@ -175,12 +175,12 @@ export default function Contact() {
                     <h4 className="font-bold text-gray-800 mb-2">Instagram</h4>
                     <p className="text-gray-600 mb-3">Acompanhe nosso conteúdo e dicas</p>
                     <a 
-                      href="https://instagram.com/ec" 
+                      href="https://www.instagram.com/ecassessoriaacademica/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-medium"
                     >
-                      @ec_academico
+                      @ecassessoriaacademica
                     </a>
                   </div>
                 </div>

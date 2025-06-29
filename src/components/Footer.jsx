@@ -59,13 +59,13 @@ export default function Footer() {
                     <FaWhatsapp className="w-5 h-5" />
                   </a>
                   <a
-                    href="mailto:contato@ec.com"
+                    href="mailto:ecacessoriaacademica@gmail.com"
                     className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-colors duration-200"
                   >
                     <FaEnvelope className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://instagram.com/ec"
+                    href="https://www.instagram.com/ecassessoriaacademica/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-pink-600 hover:bg-pink-700 p-3 rounded-full transition-colors duration-200"
@@ -122,7 +122,7 @@ export default function Footer() {
                   </div>
                   <div className="flex items-center gap-3">
                     <FaEnvelope className="w-4 h-4 text-blue-400" />
-                    <span className="text-sm">contato@ec.com</span>
+                    <span className="text-sm">ecacessoriaacademica@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <FaMapMarkerAlt className="w-4 h-4 text-purple-400" />
@@ -144,7 +144,7 @@ export default function Footer() {
                   <div className="text-sm text-gray-400">Trabalhos Entregues</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-green-400">98%</div>
+                  <div className="text-2xl font-bold text-green-400">95%</div>
                   <div className="text-sm text-gray-400">Taxa de Aprovação</div>
                 </div>
                 <div>

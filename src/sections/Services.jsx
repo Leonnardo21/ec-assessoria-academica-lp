@@ -106,11 +106,6 @@ export default function Services(){
                                         </li>
                                     ))}
                                 </ul>
-
-                                {/* Botão */}
-                                <button className={`w-full bg-gradient-to-r ${service.gradient} text-white font-semibold py-3 px-6 rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105`}>
-                                    Saiba mais
-                                </button>
                             </div>
                         </div>
                     ))}
