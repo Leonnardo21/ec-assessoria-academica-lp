@@ -1,5 +1,6 @@
-import { FaWhatsapp, FaEnvelope, FaInstagram, FaGraduationCap, FaHeart, FaArrowUp, FaPhone, FaClock, FaMapMarkerAlt } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaInstagram, FaHeart, FaArrowUp, FaPhone, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import Logo from "../assets/favicon.svg"
 
 export default function Footer() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -41,9 +42,9 @@ export default function Footer() {
               {/* Coluna da Marca */}
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
-                  <FaGraduationCap className="w-8 h-8 text-blue-400" />
-                  <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                    EC Assessoria
+                  <img className="w-10 h-10" src={Logo} alt="EC Assessoria Acadêmica Logo" />
+                  <h3 className="text-2xl font-bold bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-600 bg-clip-text text-transparent">
+                    Assessoria Acadêmica
                   </h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
